@@ -23,6 +23,8 @@ public class MembershipServiceAdapter implements GetMembershipPort {
     @Override
     public MembershipStatus getMembership(String membershipId) {
 
+        // 실제 http all
+        // we need http client.
         String url = String.join("/", membershipServiceUrl, "membership", membershipId);
         try {
             String jsonResponse = commonHttpClient.sendGetRequest(url).body();

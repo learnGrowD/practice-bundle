@@ -8,15 +8,15 @@
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.30/f195ee86e6c896ea47a1d39defbe20eb59cd149d/lombok-1.18.30.jar" />
           <entry name="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/3.2.2/cdf33f985035494cb3ea6f9e5d6589ba9fb58e91/spring-boot-configuration-processor-3.2.2.jar" />
         </processorPath>
-        <module name="com.fastcampuspay.settlement.fastcampus-pay.settlement-service.main" />
+        <module name="fastcampus-pay.settlement-service.main" />
         <module name="com.fastcampus.task-consumer.fastcampus-pay.task-consumer.main" />
-        <module name="Desktop.fastcampus-pay.money-query-service.main" />
+        <module name="money-query-service.fastcampus-pay.money-query-service.main" />
+        <module name="common.fastcampus-pay.common.main" />
+        <module name="utility.fastcampus-pay.utility.main" />
         <module name="com.fastcampuspay.membership.fastcampus-pay.membership-service.main" />
+        <module name="money-aggregation-service.fastcampus-pay.money-aggregation-service.main" />
         <module name="com.fastcampuspay.money.fastcampus-pay.money-service.main" />
-        <module name="Desktop.fastcampus-pay.utility.main" />
-        <module name="Desktop.fastcampus-pay.common.main" />
         <module name="com.fastcampuspay.payment.fastcampus-pay.payment-service.main" />
-        <module name="Desktop.fastcampus-pay.money-aggregation-service.main" />
         <module name="com.fastcampuspay.banking.fastcampus-pay.banking-service.main" />
         <module name="com.fastcampus.logging-consumer.fastcampus-pay.logging-consumer.main" />
         <module name="com.fastcampuspay.remittance.fastcampus-pay.remittance-service.main" />

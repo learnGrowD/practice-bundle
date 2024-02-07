@@ -56,6 +56,7 @@ public class TaskConsumer {
                             // what subtask, membership, banking
                             // external port, adapter
                             // hexagonal architecture
+                            // *** validation
 
                             // all subtask is done. true
                             subTask.setStatus("success");

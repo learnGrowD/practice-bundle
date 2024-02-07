@@ -15,7 +15,10 @@ public class LoggingConsumer {
             , @Value("${logging.topic}")String topic){
         Properties props = new Properties();
         props.put("bootstrap.servers", bootstrapServers);
+
+        //consumer group
         props.put("group.id", "my-group");
+
         props.put("key.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         props.put("value.deserializer", "org.apache.kafka.common.serialization.StringDeserializer");
         KafkaConsumer kafkaConsumer = new KafkaConsumer<>(props);

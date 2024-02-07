@@ -22,3 +22,8 @@ public class LoggingAspect {
         // Produce Access log
     }
 }
+
+//Aspect Programming을 통해서 kafka에 로그 정보 보냄
+
+//EFK -> kafka -> Logstash -> kavana/.
+//ELK -> kafka
