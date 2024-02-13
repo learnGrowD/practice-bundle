@@ -26,6 +26,4 @@ public class SettlementBatchScheduler {
         // jobParameters 와 함께 실행한다.
         jobLauncher.run(settlementJob, jobParameters);
     }
-
-
 }

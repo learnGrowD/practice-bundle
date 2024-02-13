@@ -85,6 +85,7 @@ public class RequestMoneyChangingController {
         increaseMoneyRequestUseCase.increaseMoneyRequestByEvent(command);
     }
 
+//    @PostMapping(path = "/money/get-member-money")
     @PostMapping(path = "/money/member-money")
     List<MemberMoney> findMemberMoneyListByMembershipIds(@RequestBody FindMemberMoneyListByMembershipIdsRequest request) {
         FindMemberMoneyListByMembershipIdsCommand command = FindMemberMoneyListByMembershipIdsCommand.builder()

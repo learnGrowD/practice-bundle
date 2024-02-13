@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class MoneyQueryController {
 
     private final QueryMoneySumByRegionUseCase useCase;
+//    @GetMapping(path = "/money/query/money-sum/address/{address}")
     @GetMapping(path = "/money/query/get-money-sum-by-address/{address}")
     long getMoneySumByAddress(@PathVariable String address) {
         QueryMoneySumByRegionQuery query = QueryMoneySumByRegionQuery.builder()

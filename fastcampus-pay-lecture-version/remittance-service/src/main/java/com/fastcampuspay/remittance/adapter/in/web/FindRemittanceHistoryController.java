@@ -18,6 +18,8 @@ import java.util.List;
 public class FindRemittanceHistoryController {
 
     private final FindRemittanceUseCase findRemittanceUseCase;
+
+//    @GetMapping( "/remittance/membership-id/{membershipId}")
     @GetMapping( "/remittance/{membershipId}")
     List<RemittanceRequest> findRemittanceHistory(@PathVariable String membershipId) {
         FindRemittanceCommand command = FindRemittanceCommand.builder()
